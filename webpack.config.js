@@ -1,5 +1,6 @@
 const path = require("path");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
+const MiniCssExctractPlugin = require("mini-css-extract-plugin");
 
 module.exports = {
     // src/index.js as entry point of the app
@@ -30,12 +31,23 @@ module.exports = {
                     }
                 }            
             },
+            {
+                test:/\.css$/,
+                use: [
+                    MiniCssExctractPlugin.loader,
+                    "css-loader",
+                    "postcss-loader"
+                ]
+            }
         ]
     },
     // Html Plugin to transpile into static html and javascript
     plugins: [
         new HtmlWebpackPlugin({
             template: path.join(__dirname, "src", "index.html"),
+        }),
+        new MiniCssExctractPlugin({
+            filename: "styles.css",
         }),
     ],
 }
