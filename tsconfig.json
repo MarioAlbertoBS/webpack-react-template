@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "target": "es5",                                     /* Set the JavaScript language version for emitted JavaScript and include compatible library declarations. */
+    "module": "commonjs",                                /* Specify what module code is generated. */
+    "lib": [
+      "dom",
+      "es5",
+      "es6"
+    ],
+    "jsx": "react",
+    "sourceMap": true,
+    "outDir": "./dist",
+    "importHelpers": true,
+    "moduleResolution": "node",
+    "esModuleInterop": true,                             /* Emit additional JavaScript to ease support for importing CommonJS modules. This enables `allowSyntheticDefaultImports` for type compatibility. */
+    /* Type Checking */
+    "strict": true,                                      /* Enable all strict type-checking options. */
+  },
+  "include": ["./src/**/*"]
+}
