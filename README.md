@@ -9,7 +9,6 @@ This template is configured to create an web application with the following tech
 * [ReactJS](https://reactjs.org/)
 * [TailwindCSS](https://tailwindcss.com/)
 * [Jest](https://jestjs.io/)
-* [EnzymeJS](https://enzymejs.github.io/enzyme/)
 
 ## HOW TO START
 Download this template and open with an editor, then run the command to install the dependencies
