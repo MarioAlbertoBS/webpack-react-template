@@ -10,6 +10,8 @@ This template is configured to create an web application with the following tech
 * [TailwindCSS](https://tailwindcss.com/)
 * [Jest](https://jestjs.io/)
 
+**NOTE:** currenty working in find alternatives for React Testing
+
 ## HOW TO START
 Download this template and open with an editor, then run the command to install the dependencies
 ```
