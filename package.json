@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "webpack serve --mode=development --open --hot",
     "build": "webpack --mode=production --progress",
-    "test": "npx jest"
+    "test": "npx jest --maxWorkers=1"
   },
   "author": "Mario Bojorquez",
   "license": "MIT",
